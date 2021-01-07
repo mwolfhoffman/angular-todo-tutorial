@@ -1,0 +1,8 @@
+
+<div class="content">
+  <ul *ngFor="let item of todos">
+    <li (click)="toggleComplete(item)">
+      {{item.text}}
+    </li>
+  </ul>
+</div>
